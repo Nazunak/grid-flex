@@ -66,6 +66,9 @@
     justify-content: center;
 }
 .test__item-12 {
+    display: flex;
+    gap: 5px;
+    background-color: transparent;
 }
 
 @media (max-width: 435px) {
@@ -73,4 +76,27 @@
         flex-direction: column;
     }
 }
+@media (max-width: 906px) {
+    .test__item-12 {
+        height: 66.666%;
+    }
+}
+@media (max-width: 621px) {
+    .test__item-12 {
+        height: 33.333%;
+    }
+}
 
+.item__dop {
+    flex: 1 0 auto;
+    background-color: aquamarine;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item__dop2 {
+    flex: 3 0 auto;
+    background-color: aqua;
+    height: 100%;
+}
