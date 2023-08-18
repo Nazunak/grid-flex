@@ -1,0 +1,57 @@
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.test {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 3fr 200px;
+    gap: 20px;
+    padding-top: 20px;
+}
+.test__item {
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.test__item-1 {
+}
+.test__item-2 {
+    grid-column: 2/4; 
+}
+.test__item-3 {
+}
+.test__item-4 {
+    grid-column: 1/4;
+}
+.test__item-5 {
+}
+.test__item-6 {
+}
+.test__item-7 {
+}
+.test__item {
+}
+.test__item-9 {
+}
+.test__item-10 {
+}
+.test__item-11 {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+.item__deep{
+    background-color: #ee9797;
+    flex: 1 1 auto;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.test__item-12 {
+}
+
